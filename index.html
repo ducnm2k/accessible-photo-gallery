@@ -6,31 +6,74 @@
     <link rel="stylesheet" href="css/gallery.css" />
     <script src="js/gallery.js"></script>
   </head>
-  <body>
+  <body onload="onLoadFunction()">
     <div id="image">Hover over an image below to display here.</div>
 
     <img
+      tabindex="0"
       class="preview"
-      alt="Styling with a Bandana"
-      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg"
+      alt="Castle"
+      src="https://i.pinimg.com/564x/29/09/e4/2909e4774fa494056bd7964fe09041bb.jpg"
       onmouseover="upDate(this)"
       onmouseout="unDo()"
+      onfocus="focusFunction(this)"
+      onblur="blurFunction()"
     />
 
     <img
+      tabindex="0"
       class="preview"
-      alt="With My Boy"
-      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+      alt="Frog"
+      src="https://i.pinimg.com/564x/c6/53/79/c65379c7836ad343c364f838f3671128.jpg"
       onmouseover="upDate(this)"
       onmouseout="unDo()"
+      onfocus="focusFunction(this)"
+      onblur="blurFunction()"
     />
 
     <img
+      tabindex="0"
       class="preview"
-      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"
-      alt="Young Puppy"
+      src="https://i.pinimg.com/564x/d5/ad/2e/d5ad2e5cbfc918e838163b8458949f48.jpg"
+      alt="Fan"
       onmouseover="upDate(this)"
       onmouseout="unDo()"
+      onfocus="focusFunction(this)"
+      onblur="blurFunction()"
     />
+
+    <img
+      tabindex="0"
+      class="preview"
+      src="https://i.pinimg.com/564x/72/c2/f9/72c2f9fa1ea07c77ee187c016d30f52b.jpg"
+      alt="Tree"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="focusFunction(this)"
+      onblur="blurFunction()"
+    />
+
+    <img
+      tabindex="0"
+      class="preview"
+      src="https://i.pinimg.com/564x/25/0c/32/250c326ed0da41715e5f58ff89eb32dd.jpg"
+      alt="Knight"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="focusFunction(this)"
+      onblur="blurFunction()"
+    />
+
+    <img
+      tabindex="0"
+      class="preview"
+      src="https://i.pinimg.com/564x/7e/be/f2/7ebef269b795dffbc389545222fb7c37.jpg"
+      alt="???"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="focusFunction(this)"
+      onblur="blurFunction()"
+    />
+    <script src="js/gallery.js"></script>
   </body>
 </html>
